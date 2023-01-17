@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Georama:wght@400;500&family=Oxygen&family=Rajdhani:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Asap", sans-serif;
+  font-family: 'Georama', sans-serif;
   scroll-behavior: smooth;
 }
 a {
@@ -24,7 +24,7 @@ header {
   border-bottom: 1px solid #f89e9e;
 }
 header nav a {
-  padding: 10px 20px;
+  padding: 0px;
   font-size: 1rem;
   color: #f3eea4;
   border-radius: 5px;
