@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="index.css">
     <title>Home - Bureau of Internal Revenue</title>
   </head>
-  <body>
+<body>
+
+
     <header>
       <nav>
         <a href="#home" class="active">Home</a>
@@ -113,10 +115,10 @@
     </section>
     <section id="about">
       <div class="container reveal">
-        <h2>About</h2>
+        <h2>Issuances, Forms, and Returns</h2>
         <div class="text-container">
           <div class="text-box">
-            <h3>Section Text</h3>
+            <h3>Revenue Regulations and other important memoranda</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               eius molestiae perferendis eos provident vitae iste. Lorem ipsum
@@ -125,6 +127,7 @@
               soluta dolores iste sit corrupti! Magnam, delectus qui. Odit,
               accusamus doloremque.
             </p>
+            <h3>Popular Forms and Returns</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est
               rerum id quis eaque rem suscipit reprehenderit quaerat vero
@@ -208,6 +211,38 @@
         </div>
       </div>
     </section>
+
+<!-- Messenger Chat plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "162329820488743");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
 </body>
 <footer>
     <div class="row mt-5 ms-5; " style="background-color: grey;">
@@ -258,5 +293,8 @@
         </div>
 
       </div>
+
+
 </footer>
+
 </html>
