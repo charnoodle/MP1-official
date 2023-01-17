@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Georama:wght@400;500&family=Oxygen&family=Rajdhani:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,16 +10,14 @@
 a {
   text-decoration: none;
 }
-ul {
-  list-style: none;
-}
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #294db1;
+  background: #7f7b82;
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #f89e9e;
@@ -26,19 +25,24 @@ header {
 header nav a {
   padding: 0px;
   font-size: 1rem;
-  color: #f3eea4;
+  color: #bfacb5;
   border-radius: 5px;
   letter-spacing: 0.5px;
 }
 header nav a:hover,
 header nav a.active {
-  background: #f3eea4;
-  color: #294db1;
+  background: #e5d0cc;
+  color: white;
   transition: 0.5s ease-out;
   letter-spacing: 2px;
 }
+
+.nav-item {
+  color: white;
+}
+
 body {
-  background: #294db1;
+  background: #444554;
 }
 section {
   min-height: 100vh;
@@ -50,15 +54,15 @@ section:nth-child(1) {
   color: #f3eea4;
 }
 section:nth-child(2) {
-  color: #294db1;
-  background: #f3eea4;
+  color: #444554;
+  background: #e5d0cc;
 }
 section:nth-child(3) {
   color: #f3eea4;
 }
 section:nth-child(4) {
-  color: #294db1;
-  background: #f3eea4;
+  color: #172121;
+  background: #e5d0cc;
 }
 section:nth-child(5) {
   color: #f3eea4;
@@ -81,7 +85,7 @@ section .text-container {
 section .text-container .text-box {
   margin: 20px;
   padding: 20px;
-  background: #a7b620;
+  background: #bfacb5;
 }
 section .text-container .text-box h3 {
   font-size: 30px;
@@ -115,7 +119,7 @@ section .text-container .text-box h3 {
 footer {
     color: white;
     text-decoration: none;
-    font-family: 'Century Gothic MS';
+
 }
 
 footer a {
@@ -136,9 +140,37 @@ footer a {
 }
 
 p {
-  color: #294db1;
+  color: #172121;
 }
 
 h1, h3, h4, h5 {
-  color: #294db1;
+  color: #172121;
 }
+
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative;
+    display:table;
+    margin:0 auto;
+}
+li {
+      display:table-cell;
+}
+
+
+
+a:hover{
+          color:transparent;
+        }
+       
+
+.active{
+  color: white;
+}
+
+
+      
+
+
