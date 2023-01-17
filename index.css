@@ -25,7 +25,7 @@ header {
 }
 header nav a {
   padding: 10px 20px;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #e0ffff;
   border-radius: 5px;
   letter-spacing: 0.5px;
@@ -67,11 +67,11 @@ section .container {
   margin: 100px;
 }
 section h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 20px;
 }
 section h2 {
-  font-size: 40px;
+  font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
 }
