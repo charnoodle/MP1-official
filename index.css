@@ -18,27 +18,27 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #42455a;
+  background: #294db1;
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid #00c2cb;
+  border-bottom: 1px solid #f89e9e;
 }
 header nav a {
   padding: 10px 20px;
   font-size: 1rem;
-  color: #e0ffff;
+  color: #f3eea4;
   border-radius: 5px;
   letter-spacing: 0.5px;
 }
 header nav a:hover,
 header nav a.active {
-  background: #00c2cb;
-  color: #42455a;
+  background: #f3eea4;
+  color: #294db1;
   transition: 0.5s ease-out;
   letter-spacing: 2px;
 }
 body {
-  background: #42455a;
+  background: #294db1;
 }
 section {
   min-height: 100vh;
@@ -47,21 +47,21 @@ section {
   align-items: center;
 }
 section:nth-child(1) {
-  color: #e0ffff;
+  color: #f3eea4;
 }
 section:nth-child(2) {
-  color: #42455a;
-  background: #e0ffff;
+  color: #294db1;
+  background: #f3eea4;
 }
 section:nth-child(3) {
-  color: #e0ffff;
+  color: #f3eea4;
 }
 section:nth-child(4) {
-  color: #42455a;
-  background: #e0ffff;
+  color: #294db1;
+  background: #f3eea4;
 }
 section:nth-child(5) {
-  color: #e0ffff;
+  color: #f3eea4;
 }
 section .container {
   margin: 100px;
@@ -81,7 +81,7 @@ section .text-container {
 section .text-container .text-box {
   margin: 20px;
   padding: 20px;
-  background: #00c2cb;
+  background: #a7b620;
 }
 section .text-container .text-box h3 {
   font-size: 30px;
@@ -133,4 +133,12 @@ footer a {
     margin-top: 30px;
     padding: auto;
     line-height: 5px;
+}
+
+p {
+  color: #294db1;
+}
+
+h1, h3, h4, h5 {
+  color: #294db1;
 }
