@@ -9,6 +9,7 @@
 }
 a {
   text-decoration: none;
+  color: white;
 }
 
 header {
@@ -17,10 +18,11 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #7f7b82;
+  background: #444554;
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #f89e9e;
+  color: white;
 }
 header nav a {
   padding: 0px;
@@ -155,8 +157,10 @@ ul {
     display:table;
     margin:0 auto;
 }
+ 
 li {
       display:table-cell;
+      color: white;
 }
 
 
@@ -170,7 +174,9 @@ a:hover{
   color: white;
 }
 
-
+#mainNav {
+  color: white;
+}
       
 
 
