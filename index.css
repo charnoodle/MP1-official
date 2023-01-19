@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: 'Georama', sans-serif;
   scroll-behavior: smooth;
+  color: white !important;
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -18,22 +20,24 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #444554;
+  background: #00272B;
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #f89e9e;
-  color: white;
+  color: white !important;
 }
+
 header nav a {
   padding: 0px;
   font-size: 1rem;
-  color: #bfacb5;
+  color: #c1d7c2;
   border-radius: 5px;
   letter-spacing: 0.5px;
 }
+
 header nav a:hover,
 header nav a.active {
-  background: #e5d0cc;
+  background: #c1d7c2;
   color: white;
   transition: 0.5s ease-out;
   letter-spacing: 2px;
@@ -44,56 +48,76 @@ header nav a.active {
 }
 
 body {
-  background: #444554;
+  background: #00272B;
+  color: white;
 }
+
 section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 section:nth-child(1) {
-  color: #f3eea4;
+  color: #c1d7c2;
 }
+
 section:nth-child(2) {
-  color: #444554;
-  background: #e5d0cc;
+  color: #00272B;
+  background: #c1d7c2;
 }
+
 section:nth-child(3) {
-  color: #f3eea4;
+  color: #c1d7c2;
 }
+
 section:nth-child(4) {
   color: #172121;
-  background: #e5d0cc;
+  background: #c1d7c2;
+  text-align: center;
 }
+
 section:nth-child(5) {
-  color: #f3eea4;
+  color: #c1d7c2;
 }
+
 section .container {
   margin: 100px;
 }
+
 section h1 {
   font-size: 2rem;
   margin: 20px;
+  color:#00272B !important;
 }
+
 section h2 {
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
 }
+
 section .text-container {
   display: flex;
 }
+
 section .text-container .text-box {
   margin: 20px;
   padding: 20px;
-  background: #bfacb5;
+  background: #c1d7c2;
 }
+
+section .text-container .text-box p {
+  color:#00272B !important;
+}
+
 section .text-container .text-box h3 {
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color:#00272B !important;
 }
 
 @media (max-width: 900px) {
@@ -163,19 +187,17 @@ li {
       color: white;
 }
 
-
-
 a:hover{
-          color:transparent;
+          color: white;
         }
        
 
 .active{
-  color: white;
+  color: black !important;
 }
 
 #mainNav {
-  color: white;
+  color: black !important;
 }
       
 
