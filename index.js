@@ -91,6 +91,7 @@ $(window).scroll(function(){
    }                   
 });
 
+
 const popup = document.querySelector('.chat-popup');
 const chatBtn = document.querySelector('.chat-btn');
 const submitBtn = document.querySelector('.submit');
