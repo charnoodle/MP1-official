@@ -236,23 +236,30 @@
       </div>
     </section>
 
-  <div>
-    <button class="open-button" onclick="openForm()">
-      <img src="img/revie-v2.gif" style="width:50%"/> 
+    <section>
+      
+      <button class="chat-btn"> 
+          <i class="material-icons"> comment </i>
       </button>
-    
-    <div class="chat-popup" id="myForm">
-      <form action="/action_page.php" class="form-container">
-        <h1>Chat</h1>
-    
-        <label for="msg"><b>Message</b></label>
-        <textarea placeholder="Type message.." name="msg" required></textarea>
-    
-        <button type="submit" class="btn">Send</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-      </form>
-    </div>
-  </div>
+
+      <div class="chat-popup">
+          <div class="badge">1</div>
+          <div class="chat-area">
+           <div class="income-msg">
+               <img src="img/revie-v2.gif" style="width:10%"; class="avatar" alt="">
+               <span class="msg"> Hi, How can I help you?</span>
+           </div>   
+          </div>
+
+          <div class="input-area">
+              <input type="text">
+              <button id="emoji-btn"> &#127773;</button>
+              <button class="submit"> <i class="material-icons"> send</i></button>
+          </div>
+      </div>
+    </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
   <script src="index.js"></script>
 </body>
 <footer>
