@@ -155,6 +155,11 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+footer p {
+  margin-left: 20px;
+}
+
 .govtLinks {
     margin: auto;
     margin-top: 30px;
