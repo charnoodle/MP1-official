@@ -237,6 +237,7 @@ a:hover{
 
 .chat-btn:hover, .submit:hover, #emoji-btn:hover{
   opacity: 1;
+  background-image: url("img/revie-v2.gif");
 }
 
 .chat-popup {
