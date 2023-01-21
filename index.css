@@ -86,7 +86,7 @@ section:nth-child(5) {
 }
 
 section .container {
-  margin: 100px;
+  margin: auto;
 }
 
 section h1 {
