@@ -122,7 +122,7 @@
                                               <label for="grossIncome"><b>Allowances</b></label>
                                             </div>
                                             <div class="col-75">
-                                              <input type="text" id="grossIncome" name="grossIncome" placeholder="COLA, Representation, Transportation, Housing">
+                                              <input type="text" id="grossIncome" name="grossIncome" placeholder="COLA, Representation, Transportation">
                                             </div>
                                           </div>
                                           <div class="row">
@@ -374,7 +374,7 @@
       <div class="container reveal">
         <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel">
-                  <h2 style="margin-top: 100px">Witholding Taxes for Businesses</h2>
+                  <h2 style="margin-top: 100px; text-align: center;">Witholding Taxes for Businesses</h2>
                   
                     <div class="container-fluid ms-5">
                         <form class="display: block">
@@ -385,65 +385,65 @@
                                     <div class="card">
                                   
                                     
-                                        <div class="card-body">
+                                        <div class="card-body2">
                                           <div class="container">
                                             <form action="action_page.php">
                                               <div class="row">
-                                                <div class="col-25">
-                                                  <label for="country"><b>Payroll Period</b></label>
+                                                <div class="col-25 mt-3">
+                                                  <label for="country"><b>Taxable Period</b></label>
                                                 </div>
                                                 <div class="col-75">
                                                   <select id="country" name="country">
                                                     <option selected disabled>Select one</option>
-                                                    <option value="daily">Daily</option>
-                                                    <option value="weekly">Weekly</option>
-                                                    <option value="2weeks">Fortnightly</option>
-                                                    <option value="monthly">Monthly</option>
+                                                    <option value="1Qtr">1st Qtr</option>
+                                                    <option value="2Qtr">2nd Qtr</option>
+                                                    <option value="3Qtr">3rd Qtr</option>
+                                                    <option value="4Qtr">4th Qtr</option>
                                                   </select>
                                                 </div>
                                               </div>
                                               <div class="row">
                                                 <div class="col-50">
-                                                  <label for="fname"><b>Gross Compensation Income</b></label>
+                                                  <label for="grossIncome"><b>Gross Income</b></label>
                                                 </div>
                                                 <div class="col-50">
-                                                  <input type="text" id="fname" name="firstname" placeholder="Kabuuang kita">
+                                                  <input type="text" id="grossIncome" name="grossIncome" placeholder="Kabuuang kita">
                                                 </div>
                                               </div>
                                               <br>
                                               <div>
-                                                <label for="fname"><b>Sources of Income</b></label>
+                                                <label for="incomeName"><b>Sources of Income</b></label>
                                               </div>
                                               <div class="row">
                                                 <div class="col-25">
-                                                  <label for="lname"><b>Basic Pay</b></label>
+                                                  <label for="lname"><b>Main Business</b></label>
                                                 </div>
                                                 <div class="col-75">
-                                                  <input type="text" id="grossIncome" name="basicPay" placeholder="Sahod">
-                                                </div>
-                                              </div>
-                                              <div class="row">
-                                                <div class="col-25">
-                                                  <label for="grossIncome"><b>Allowances</b></label>
-                                                </div>
-                                                <div class="col-75">
-                                                  <input type="text" id="grossIncome" name="grossIncome" placeholder="COLA, Representation, Transportation, Housing">
+                                                  <input type="text" id="grossIncome" name="mainBusiness" placeholder="Kita ng kumpanya">
                                                 </div>
                                               </div>
                                               <div class="row">
                                                 <div class="col-25">
-                                                  <label for="grossIncome"><b>Other Allowances</b></label>
+                                                  <label for="grossIncome"><b>Other Business Income</b></label>
                                                 </div>
                                                 <div class="col-75">
-                                                  <input type="text" id="grossIncome" name="grossIncome" placeholder="Mga iba pang karagdagang allowances">
+                                                  <input type="text" id="grossIncome" name="grossIncome" placeholder="Mga iba pang kinita">
                                                 </div>
                                               </div>
                                               <div class="row">
                                                 <div class="col-25">
-                                                  <label for="grossIncome"><b>Supplementary Income</b></label>
+                                                  <label for="interestIncome"><b>Interest Income</b></label>
                                                 </div>
                                                 <div class="col-75">
-                                                  <input type="text" id="grossIncome" name="grossIncome" placeholder="Karagdagang kita">
+                                                  <input type="text" id="interestIncome" name="interestIncome" placeholder="Mga kinita mula sa interest">
+                                                </div>
+                                              </div>
+                                              <div class="row">
+                                                <div class="col-25">
+                                                  <label for="miscIncome"><b>Miscellaneous Income</b></label>
+                                                </div>
+                                                <div class="col-75">
+                                                  <input type="text" id="grossIncome" name="grossIncome" placeholder="Karagdagang kita na maliliit">
                                                 </div>
                                               </div>
                                               <br>
@@ -460,130 +460,57 @@
                                         <div class="card">
                                           
                                         
-                                            <div class="card-body">
+                                            <div class="card-body2">
                                               <div class="container">
                                                 <form action="action_page.php">
                                                   <div>
-                                                    <label for="fname" style="margin-top: 0px;"><b>Allowances</b></label>
+                                                    <label for="incomeName" style="margin-top: 10px;"><b>Expenses</b></label>
                                                   </div>
                                                   <div class="row">
                                                     <div class="col-25">
-                                                      <label for="grossIncome"><b>COLA</b></label>
+                                                      <label for="grossIncome"><b>Operating Expenses</b></label>
                                                     </div>
                                                     <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Cost of living allowance">
-                                                    </div>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>Representation</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="">
+                                                      <input type="text" id="opex" name="opex" placeholder="Mga gastusin sa operasyon">
                                                     </div>
                                                   </div>
                                                   <div class="row">
                                                     <div class="col-25">
-                                                      <label for="grossIncome"><b>Transportation</b></label>
+                                                      <label for="grossIncome"><b>General and Administrative Expenses</b></label>
                                                     </div>
                                                     <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Pamasahe galing kumpanya">
-                                                    </div>
-                                                  </div>
-                                                  
-                                                  <div>
-                                                    <label for="fname"><b>Supplementary Income</b></label>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>Commission</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Iba't ibang profit sharing">
+                                                      <input type="text" id="gandaExpenses" name="gandaExpenses" placeholder="">
                                                     </div>
                                                   </div>
                                                   <div class="row">
                                                     <div class="col-25">
-                                                      <label for="grossIncome"><b>13th month pay & others</b></label>
+                                                      <label for="otex"><b>Other Expenses</b></label>
                                                     </div>
                                                     <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Taxable na bahagi ng 13th month pay atbp.">
-                                                    </div>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>Hazard pay</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="">
-                                                    </div>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>Overtime pay</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="">
-                                                    </div>
-                                                  </div>
-                                                </form>
-                                              </div>
-                                               
-                                            </div>
-                                        </div>
-                                    </div>                
-                                    <div class="col-lg-5  mt-3">
-                                        <div class="card">
-                                            
-                                        
-                                            <div class="card-body">
-                                              <div class="container">
-                                                <form action="action_page.php">
-                                                  <div>
-                                                    <label for="fname" style="margin-top: 0px;"><b>Non-taxable/exempt Compensation Income</b></label>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>MWE</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Statutory na Sahod ng Minimum Wage Earner">
-                                                    </div>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>13 Month Pay atbp.</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Bahagi ng 13th Month Pay na hindi lalampas sa P90k">
-                                                    </div>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>De Minimis</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Benepisyong hindi binubuwisan">
+                                                      <input type="text" id="otex" name="otex" placeholder="Iba pang malalaking gastos">
                                                     </div>
                                                   </div>
                                                   
                                                   <div class="row">
                                                     <div class="col-25">
-                                                      <label for="grossIncome"><b>Deductions</b></label>
+                                                      <label for="intex"><b>Interest Expenses</b></label>
                                                     </div>
                                                     <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="SSS/GSIS, Pag-Ibig, PHIC, Union dues">
+                                                      <input type="text" id="intex" name="intex" placeholder="Mga gastusin sanhi ng Interest">
                                                     </div>
                                                   </div>
-                                                  <div class="row">
+                                                  <div class="row mb-3">
                                                     <div class="col-25">
-                                                      <label for="grossIncome"><b>Others</b></label>
+                                                      <label for="miscExp"><b>Miscellaneous Expenses</b></label>
                                                     </div>
                                                     <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Taxable na bahagi ng 13th month pay atbp.">
+                                                      <input type="text" id="miscExp" name="miscExp" placeholder="Mga maliliit na gastusin">
                                                     </div>
                                                   </div>
                                                   
+                                                
+                                                    
+                                   
                                                   
                                                 </form>
                                               </div>
@@ -595,46 +522,52 @@
                                         <div class="card">
                                             
                                         
-                                            <div class="card-body">
+                                            <div class="card-body2">
                                               <div class="container">
                                                 <form action="action_page.php">
                                                   <div>
-                                                    <label for="fname" style="margin-top: 0px;"><b>Net Taxable Compensation Income</b></label>
+                                                    <label for="fname" style="margin-top: 10px;"><b>Taxes Due</b></label>
                                                   </div>
                                                   <div class="row">
                                                     <div class="col-25">
-                                                      <label for="grossIncome"><b>Gross Pay</b></label>
+                                                      <label for="nti"><b>Net Taxable Income</b></label>
                                                     </div>
                                                     <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Bahagi ng sahod na binubuwisan">
-                                                    </div>
-                                                  </div>
-                                                  <div>
-                                                    <label for="fname" style="margin-top: 0px;"><b>Less:</b></label>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>NCI</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Non-taxable/Exempt Compensation Income">
-                                                    </div>
-                                                  </div>
-                                                  <div class="row">
-                                                    <div class="col-25">
-                                                      <label for="grossIncome"><b>Net Pay</b></label>
-                                                    </div>
-                                                    <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Benepisyong hindi binubuwisan">
+                                                      <input type="text" id="nti" name="nti" placeholder="Bahagi ng kita na binubuwisan">
                                                     </div>
                                                   </div>
                                                   
                                                   <div class="row">
                                                     <div class="col-25">
-                                                      <label for="grossIncome"><b>Tax due</b></label>
+                                                      <label for="taxRate"><b>Tax Rate</b></label>
                                                     </div>
                                                     <div class="col-75">
-                                                      <input type="text" id="grossIncome" name="grossIncome" placeholder="Buwanang buwis">
+                                                      <input type="text" id="taxRate" name="taxRate" placeholder="% ng buwis">
+                                                    </div>
+                                                  </div>
+                                                  <div class="row">
+                                                    <div class="col-25">
+                                                      <label for="NCIT"><b>Normal Income Tax</b></label>
+                                                    </div>
+                                                    <div class="col-75">
+                                                      <input type="text" id="NCIT" name="NCIT" placeholder="Buwis">
+                                                    </div>
+                                                  </div>
+                                                  
+                                                  <div class="row">
+                                                    <div class="col-25">
+                                                      <label for="MCIT"><b>MCIT</b></label>
+                                                    </div>
+                                                    <div class="col-75">
+                                                      <input type="text" id="MCIT" name="MCIT" placeholder="2% ng Kabuuang Kita">
+                                                    </div>
+                                                  </div>
+                                                  <div class="row">
+                                                    <div class="col-25">
+                                                      <label for="taxDue"><b>Tax due</b></label>
+                                                    </div>
+                                                    <div class="col-75">
+                                                      <input type="text" id="taxDue" name="taxDue" placeholder="Babayarang buwis (whichever is higher)">
                                                     </div>
                                                   </div>
                                                   <div class="row">

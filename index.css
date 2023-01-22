@@ -172,6 +172,10 @@ section .text-container .text-box h3 {
   background-color: #00272B;
 }
 
+.card-body2 {
+  background-color: hsl(177, 49%, 33%);
+}
+
 label {
   color:#00272B !important;
 }
