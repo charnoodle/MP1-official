@@ -165,6 +165,11 @@ section .text-container .text-box h3 {
 
 .form {
   color:#00272B !important;
+  text-align: center;
+}
+
+.card {
+  background-color: #00272B;
 }
 
 label {
@@ -267,6 +272,9 @@ a:hover{
   border-color:aquamarine;
 }
 
+#navDropdown {
+  color:#00272B;
+}
 
 .chat-btn{
   position: fixed;
@@ -417,6 +425,10 @@ input {
       right:10%;
       width: 80vw;
   }
+}
+
+#form-text {
+  text-align: center;
 }
 
 .popup {
