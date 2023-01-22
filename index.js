@@ -101,7 +101,7 @@ const emojiBtn = document.querySelector('#emoji-btn');
 const picker = new EmojiButton();
 
 
-// Emoji selection  
+ 
 window.addEventListener('DOMContentLoaded', () => {
 
     picker.on('emoji', emoji => {
@@ -113,13 +113,13 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });        
 
-//   chat button toggler 
+
 
 chatBtn.addEventListener('click', ()=>{
     popup.classList.toggle('show');
 })
 
-// send msg 
+
 submitBtn.addEventListener('click', ()=>{
     let userInput = inputElm.value;
 
@@ -133,3 +133,7 @@ submitBtn.addEventListener('click', ()=>{
 
 })
 
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
