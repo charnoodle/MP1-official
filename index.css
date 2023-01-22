@@ -180,6 +180,14 @@ label {
   color:#00272B !important;
 }
 
+input {
+  font-size: xx-small;
+}
+
+option {
+  color:#00272B !important;
+}
+
 .reveal {
   position: relative;
   transform: translateY(150px);

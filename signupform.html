@@ -66,7 +66,8 @@
 
     
     <section id="login">
-      <div class="container reveal">
+      <div class="container-fluid reveal"  style="margin-left: 10%">
+        
         <div class="logintext">
             <div class="text-box">
 
@@ -75,7 +76,12 @@
             <p class="form">Update your file should there be new changes</p>
               <div class="row">
                 <div class="col-25">
-                  <label for="fname">First Name<span class="color:red !important">*</span></label>
+                  <label for="fname">First Name
+                    <div class="popup" onclick="myFunction()">*
+                        <span class="popuptext" id="myPopup">Required field</span>
+                      </div>
+                    
+                </label>
                 </div>
                 <div class="col-75">
                   <input type="text" id="fname" name="firstname" placeholder="Put corporate name if not an individual.">
