@@ -133,6 +133,20 @@ section .text-container .text-box h3 {
   }
 }
 
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -318,18 +332,24 @@ a:hover{
 }
 
 input[type="text"]{
-  width:100%;
+  width:69%;
   border: 1px solid #ccc;
   font-size: 1rem;
   border-radius: 5px;
   height: 2.2rem;
+  color:#00272B;
+}
+
+input {
+  color:#00272B;
 }
 
 #emoji-btn{
-  position: absolute;
+  position: right;
   font-size: 1.2rem;
   background: transparent;
-  right: 50px;
+  right: 40px;
+  left: 5px;
   top:2px;
   opacity:0.5;
 }
@@ -350,7 +370,8 @@ input[type="text"]{
 .out-msg{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: right;
+  color:#00272B !important;
 }
 .my-msg{
   display: flex;
@@ -361,6 +382,7 @@ input[type="text"]{
   border-radius: 25px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.4);
   word-break: break-all;
+  color:#00272B;
 }
 
 
